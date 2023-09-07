@@ -1,0 +1,64 @@
+@import url(./hero.css);
+@import url(./allProjects.css);
+@import url(./projdetails.css);
+@import url(./allpages.css);
+@import url(./contact.css);
+@import url(./companyProfile.css);
+@import url(./whatsapp.css);
+
+@font-face {
+	font-family: blatant;
+	src: url(../assets/fonts/Blatant.otf);
+}
+
+@font-face {
+	font-family: hamburger;
+	src: url(../assets/fonts/HamburgHand-Regular.otf);
+}
+
+@font-face {
+	font-family: d3;
+	src: url(../assets/fonts/d3euronism/D3Euronism.ttf);
+}
+
+:root {
+	--primary-color: #e1f5f2;
+	--secondary-color: #c4dfdf;
+	--third-color: #6bc5d2;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	display: block;
+	height: 100%;
+	/* max-width: 1180px; */
+	max-width: 1200px;
+}
+
+span.d3Font {
+	font-family: d3;
+	font-weight: 400;
+	font-size: 3.2rem;
+}
+
+span.fontGreen {
+	color: #33b83a;
+}

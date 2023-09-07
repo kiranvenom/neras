@@ -1,0 +1,158 @@
+#company-profile {
+	padding-top: 5rem;
+}
+
+#company-profile > * li {
+	list-style: none;
+}
+
+#company-profile .company-profile-section {
+	font-family: blatant;
+	padding-top: 2rem;
+}
+
+#company-profile .company-profile-section h1 {
+	font-size: 2rem;
+}
+
+#company-profile .company-profile-section p {
+	padding: 1rem 0px;
+	font-size: 1rem;
+	line-height: 1rem;
+	text-align: justify;
+}
+
+#company-profile .company-profile-section .basic-info h1 {
+	padding-bottom: 1rem;
+}
+
+#company-profile .company-profile-section .basic-info .basic-info-1 {
+	display: flex;
+	border-top: 1px solid #000;
+}
+
+#company-profile .company-profile-section .basic-info .basic-info-1 {
+	/* background-color: red; */
+	padding: 1rem;
+	font-size: 1.2rem;
+}
+
+#company-profile
+	.company-profile-section
+	.basic-info
+	.basic-info-1
+	.basic-info-details:first-child {
+	/* background-color: red; */
+	width: 35%;
+}
+
+#company-profile
+	.company-profile-section
+	.basic-info
+	.basic-info-1
+	.basic-info-details:last-child {
+	/* background-color: red; */
+	height: 100%;
+	/* width: 35%; */
+	overflow-x: hidden;
+}
+
+#company-profile .company-profile-section .basic-info .basic-info-1 ul li {
+	padding: 1rem;
+	padding-right: 4rem;
+}
+
+.profile-section-carosal {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	height: 100%;
+	align-items: center;
+}
+
+.profile-section-carosal-p,
+.profile-section-carosal-images {
+	flex: 1;
+}
+.profile-section-carosal img {
+	width: 500px;
+}
+
+.pCarosal {
+	width: 600px;
+	height: 500px;
+	margin-right: 2rem;
+}
+
+.pCarosal img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+@media (max-width: 500px) {
+	#company-profile .company-profile-section {
+		margin: 0rem 1.5rem;
+	}
+	#company-profile
+		.company-profile-section
+		.basic-info
+		.basic-info-1
+		.basic-info-details:first-child {
+		width: 50%;
+	}
+}
+
+#mission {
+	font-family: blatant;
+	background-color: var(--primary-color);
+}
+
+.mission-vision-heading {
+	padding: 4rem 0;
+	padding-bottom: 2rem;
+}
+
+#mission .mission-vision {
+	display: flex;
+	padding-top: 2rem 0;
+}
+
+#mission .mission-vision img {
+	width: 50%;
+	height: 100%;
+	padding: 1rem;
+	position: sticky;
+	top: 4rem;
+	border-radius: 20px;
+}
+
+#mission .mission-vision .mision-vision-content {
+	font-family: var(--primary-font);
+}
+
+#mission .mission-vision .mision-vision-content p {
+	font-family: var(--secondary-font);
+	padding: 1.2rem 0px;
+}
+
+@media (max-width: 500px) {
+	#mission .mission-vision {
+		flex-direction: column;
+		margin: 0px 1.5rem;
+	}
+	#mission .mission-vision img {
+		width: 100%;
+		padding: 0px;
+		position: relative;
+		padding-bottom: 5rem;
+		border-radius: 0px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.profile-section-carosal {
+		flex-direction: column;
+	}
+}

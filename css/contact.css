@@ -1,0 +1,160 @@
+#main-contact {
+	font-family: blatant;
+	padding-top: 5rem;
+}
+
+#main-contact .contact-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#main-contact .contact-content .contact-left {
+	padding-top: 2rem;
+	flex: 1;
+	margin-right: 2rem;
+	/* border: 5px solid red; */
+}
+
+#main-contact .contact-content .contact-right {
+	transform: translateY(0%);
+	flex: 1;
+}
+
+#main-contact .contact-content .contact-right form {
+	width: 100%;
+	/* background-color: red; */
+	position: relative;
+}
+
+#main-contact .contact-content .contact-left h1 {
+	font-size: 48px;
+}
+
+#main-contact .contact-content .contact-left > p {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+
+#main-contact .contact-content .contact-left h6 {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#main-contact .contact-content .contact-left a {
+	font-size: 1.5rem;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+/* #main-contact .contact-content .contact-left .loaction .places{
+    line-height: 1.5rem;
+} */
+
+#main-contact .contact-content .contact-left .loaction .places h5 {
+	font-size: 1.5rem;
+	padding-bottom: 0.8rem;
+}
+
+#main-contact .contact-content .contact-left .loaction .places p {
+	display: block;
+	padding-bottom: 0.5rem;
+	width: 85%;
+	border-bottom: 1px solid #000;
+	margin-bottom: 1rem;
+}
+
+#main-contact .contact-content .contact-left .loaction h6 {
+	padding-bottom: 1rem;
+	font-size: 1rem;
+	text-transform: capitalize;
+}
+
+#main-contact .contact-content .contact-left .loaction iframe {
+	width: 100%;
+}
+
+#main-contact .contact-content .contact-right {
+	display: flex;
+	justify-content: start;
+	align-items: flex-start;
+	height: 100%;
+	position: sticky;
+	top: 10%;
+	left: 50%;
+
+	padding-top: 5rem;
+}
+
+/* #main-contact .contact-content .contact-right div{
+    padding-bottom: 1rem;
+} */
+
+#main-contact .contact-content .contact-right div label {
+	display: inline-block;
+	margin-bottom: 0.2rem;
+}
+
+#main-contact .contact-content .contact-right div input {
+	/* width: 400px; */
+	width: 100%;
+	margin-bottom: 1rem;
+	border: none;
+	background-color: #d9d9d9;
+	padding: 0.5rem;
+}
+
+#main-contact .contact-content .contact-right div textarea {
+	width: 100%;
+	border: none;
+	background-color: #d9d9d9;
+	padding: 0.4rem;
+	margin-bottom: 1rem;
+}
+
+#main-contact .contact-content .contact-right button {
+	width: 100%;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	font-size: 1.2rem;
+	background-color: #fff;
+	transition: all 300ms linear;
+	font-family: var(--primary-font);
+	text-align: center;
+}
+
+#main-contact .contact-content .contact-right button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+@media (max-width: 500px) {
+	#main-contact .contact-content {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#main-contact .contact-content .contact-right {
+		transform: translateY(0%);
+		flex: 1;
+		width: 100%;
+	}
+	#main-contact .contact-content .contact-right div input {
+		width: 100%;
+	}
+	#main-contact .contact-content .contact-right div textarea {
+		width: 100%;
+	}
+	#main-contact .contact-content .contact-right button {
+		padding-bottom: 1rem;
+		margin-bottom: 4rem;
+		width: 100%;
+	}
+	#main-contact .contact-content .contact-right button:hover {
+		background-color: #000;
+		color: #fff;
+	}
+}
