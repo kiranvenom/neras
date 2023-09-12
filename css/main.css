@@ -62,3 +62,7 @@ span.d3Font {
 span.fontGreen {
 	color: #33b83a;
 }
+
+.padiingLR {
+	padding: 0 2rem;
+}

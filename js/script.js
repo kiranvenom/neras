@@ -3,16 +3,6 @@ const openIframe = document.querySelector('.openIframe');
 const closeIframe = document.querySelector('#closeIframe');
 const video = document.querySelector('.video');
 
-openIframe.addEventListener('click', () => {
-	video.style.top = '0%';
-});
-video.addEventListener('click', () => {
-	video.style.top = '-100%';
-});
-closeIframe.addEventListener('click', () => {
-	video.style.top = '-100%';
-});
-
 const arrowUpElements = document.querySelectorAll('.ri-arrow-up-line');
 arrowUpElements.forEach(function (arrowUp) {
 	arrowUp.addEventListener('click', function () {
@@ -76,3 +66,13 @@ function startCounting() {
 		}, speed);
 	});
 }
+
+openIframe.addEventListener('click', () => {
+	video.style.top = '0%';
+});
+video.addEventListener('click', () => {
+	video.style.top = '-100%';
+});
+closeIframe.addEventListener('click', () => {
+	video.style.top = '-100%';
+});

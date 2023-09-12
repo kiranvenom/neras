@@ -20,7 +20,7 @@ nav {
 }
 
 #nav .logo img {
-	width: 17rem;
+	width: 18rem;
 }
 
 #nav {
@@ -232,9 +232,20 @@ nav {
 	margin-bottom: 1.5rem;
 }
 
+#main-catogery .main-catogery-servies .catogery {
+	height: fit-content;
+}
+
+
+#main-catogery .main-catogery-servies .catogery a img {
+	width: 100%;
+	height: 100%;
+}
+
 #main-catogery .main-catogery-servies .catogery a {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	transition: all linear 0.2s;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -245,6 +256,7 @@ nav {
 	color: #f1f1f1;
 }
 
+
 #main-catogery .main-catogery-servies .catogery a:hover i {
 	border: 1px solid #fff;
 	transform: rotate(-45deg);
@@ -253,6 +265,7 @@ nav {
 #main-catogery .main-catogery-servies .catogery a h5 {
 	font-size: 1.8rem;
 	flex: 1;
+	padding-bottom: 1rem;
 }
 
 #main-catogery .main-catogery-servies .catogery a p {
